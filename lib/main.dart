@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(new MaterialApp(
-    home: new MyApp(),
+    home: new MyWidget(),
     // Define the theme, set the primary swatch
     theme: new ThemeData(primarySwatch: Colors.green),
   ));
 }
 
-class MyApp extends StatelessWidget {
+class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // Declare some constants
